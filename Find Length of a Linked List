@@ -9,8 +9,8 @@ class Node{
  
 class LinkedList{
     Node head;  
-    public void push(int new_data){
-        Node new_node = new Node(new_data);
+    public void push(int newData){
+        Node new_node = new Node(newData);
         new_node.next = head;
         head = new_node;
     }
